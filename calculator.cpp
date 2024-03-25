@@ -34,5 +34,15 @@ int main()
 {
     int pilihan;
 
+    do{
+        cout << "==================" << endl ;
+        cout << "Menu" << endl ;
+        cout << "Pemjumlahan" << endl ;
+        cout << "Pembagian" << endl ;
+        cout << "Perkalian" << endl ;
+        cout << "Pengurangan" << endl ;
+        cout << "Masukan pilihan 1/2/3/4/5 = " ;
+        cin >> pilihan ;
+    }
 }
 
