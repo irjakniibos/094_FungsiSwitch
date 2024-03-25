@@ -36,10 +36,11 @@ int main()
     int pilihan;
     do{ cout << "==================" << endl;
         cout << "Menu" << endl;
-        cout << "Pemjumlahan" << endl;
-        cout << "Pembagian" << endl;
-        cout << "Perkalian" << endl;
-        cout << "Pengurangan" << endl;
+        cout << "1.Pemjumlahan" << endl;
+        cout << "2.Pembagian" << endl;
+        cout << "3.Perkalian" << endl;
+        cout << "4.Pengurangan" << endl;
+        cout << "5.Exit" << endl;
         cout << "Masukan pilihan 1/2/3/4/5 = ";
         cin >> pilihan;
 
