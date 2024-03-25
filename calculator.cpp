@@ -34,10 +34,7 @@ float pengurangan(float a, float b)
 int main()
 {
     int pilihan;
-
-    do
-    {
-        cout << "==================" << endl;
+    do{ cout << "==================" << endl;
         cout << "Menu" << endl;
         cout << "Pemjumlahan" << endl;
         cout << "Pembagian" << endl;
@@ -68,6 +65,6 @@ int main()
             break;
         default :
             cout << "pilihan tidak ada" << endl;
-            break;
-    }
+            break; }
+        }while(pilihan != 5) ;
 }
