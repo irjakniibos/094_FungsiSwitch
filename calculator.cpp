@@ -34,7 +34,9 @@ float pengurangan(float a, float b)
 int main()
 {
     int pilihan;
-    do{ cout << "==================" << endl;
+    do{ 
+        system("cls");
+        cout << "==================" << endl;
         cout << "Menu" << endl;
         cout << "1.Pemjumlahan" << endl;
         cout << "2.Pembagian" << endl;
@@ -49,23 +51,28 @@ int main()
         case 1 :
             input();
             cout << "hasil penjumlahan = " << penjumlahan(bilSatu, bilDua) << endl;
+            system("pause");
             break;
         case 2 :
             input();
             cout << "hasil pembagian = " << pembagian(bilSatu, bilDua) << endl;
+            system("pause");
             break; 
         case 3 :
             input();
             cout << "hasil perkalian = " << perkalian(bilSatu, bilDua) << endl;
+            system("pause");
             break;
         case 4 :
             input();
             cout << "hasil pengurangan = " << pengurangan(bilSatu, bilDua) << endl;
+            system("pause");
             break;
         case 5 :
             break;
         default :
             cout << "pilihan tidak ada" << endl;
+            system("pause");
             break; }
         }while(pilihan != 5) ;
 }
