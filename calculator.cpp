@@ -60,5 +60,14 @@ int main()
             input();
             cout << "hasil perkalian = " << perkalian(bilSatu, bilDua) << endl;
             break;
+        case 4 :
+            input();
+            cout << "hasil pengurangan = " << pengurangan(bilSatu, bilDua) << endl;
+            break;
+        case 5 :
+            break;
+        default :
+            cout << "pilihan tidak ada" << endl;
+            break;
     }
 }
